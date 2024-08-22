@@ -1,13 +1,4 @@
-@media only screen and (max-width:500px) {
-  body {
-    background-color: red;
-  }
-} 
-@media only screen and (min-width:501px) {
-  body {
-    background-color: blue;
-  }
-}
+
 
 * {
   padding: 0px;
@@ -22,11 +13,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
 hr {
   border: 1px solid black;
 }
-
-
 
 .Home {
 width: 100%;
@@ -39,7 +29,7 @@ height: 350px;
   margin-bottom: 15px;
 }
 .fab {
-  font-size: 25px;
+  font-size: 15px;
   color: orange;
   margin: auto;
   margin-left: 6px;
