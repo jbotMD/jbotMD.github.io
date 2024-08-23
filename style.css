@@ -30,7 +30,7 @@ hr {
 
 .Home {
 width: 100%;
-height: 350px;
+height: 420px;
 }
 .fa {
   width: 100px;
@@ -69,7 +69,7 @@ height: 350px;
 
 .Comunity {
   width: 100%;
-  height: 500px;
+  height: 720px;
 }
 
 .ComA {
@@ -79,24 +79,18 @@ height: 350px;
   font-family: Times New Roman;
   padding: 25px 25px;
 }
-.c1 {
-  border: 1px solid transparent;
-  width: 320px;
-  height: 100px;
-  padding: 10px;
-  margin-left: 10px;
-}
+
 .c2 {
-  border: 1px solid transparent;
+  border: 1px solid yellow;
   width: 320px;
-  height: 110px;
+  height: 200px;
   padding: 10px;
   margin-left: 10px;
 }
 
 .Contact {
   width: 100%;
-  height: 750px;
+  height: 720px;
 }
 .Con {
   text-align: center;
