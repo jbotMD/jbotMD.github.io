@@ -62,9 +62,10 @@ height: 420px;
   width: 95%;
   height: 80px;
   margin: auto;
+  text-align: center;
+  font-size: 15px;
   color: yellow;
   font-family: Times New Roman;
-  text-indent: 20px;
 }
 
 .Comunity {
