@@ -133,10 +133,10 @@ main {
   font-family: Times New Roman;
 }
 
-.Buttom {
+.But button {
   width: 285px;
   height: 60px;
-  margin: 0px;
+  margin: 5px;
   background-color: #4F2727;
   border-radius: 60px;
   text-align: center;
