@@ -7,11 +7,6 @@
 ---
 
 ## ✨ About
-This repository hosts the source code for a minimalist and stylish link tree website, built with HTML, CSS, and JavaScript.
-> 📌 This website was created entirely using an Android device.
+Link : jbotMD.github.io
 
 ---
-
-## 🌐 Contribution
-Contributions to the repository are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. I welcome any feedback or assistance to improve my personal link tree website.
-> 🌟 If you appreciate this repo, show some love with a star!
