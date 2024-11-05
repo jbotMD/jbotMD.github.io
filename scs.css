@@ -1,0 +1,23 @@
+.content {
+      display: none; /* Awalnya konten disembunyikan */
+      padding: 20px;
+      margin-top: 10px;
+      background-color: red;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+.show {
+      display: block; /* CSS untuk menampilkan konten */
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }

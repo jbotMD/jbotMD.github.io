@@ -1,89 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>jbotMD</title>
-
-    <!-- Styleshits -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <!-- Navigation -->
-  <nav>
-    <input type="checkbox" id="sidebar-active">
-    <label for="sidebar-active" class="open-sidebar-button">
-      <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-    </label>
-    <label id="overlay" for="sidebar-active"></label>
-    <div class="links-container">
-      <label for="sidebar-active" class="close-sidebar-button">
-        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-      </label>
-
-      <a class="home-link" href="index.html">Home</a> <!-- link back to homepage -->
-      <a href="#isC">Comunity</a> 
-      <a href="#isP">Project</a>
-      <a href="isT">Contact</a>
-      
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Rasel Shikdar">
+  <meta name="description" content="A personal link tree website">
+  <meta name="keywords" content="Link Tree, linktree, html & css">
+  <title>JbotMD Bot Whatsapp Multi Device</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+  <link rel="manifest" href="Favicon/site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="scs.css">
+  <script src="https://kit.fontawesome.com/fcf5d0bef4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <!-- Preloader -->
+  <div id="preloader"></div>
+  
+  <!-- Header -->
+  <header>
+    <h3 class="logoName">JbotMD</h3>
+    <a href="https://wa.me/628999079286">
+      <button class="sourceCode">
+        <span>Owner</span>
+      </button>
+    </a>
+  </header>
+  
+  <main class="container">
+    <div class="logocontainer">
+      <div class="logo">
+        <img src="./hero.png" alt="Rasel's Avatar">
+      </div>
     </div>
-  </nav>
-    <!-- End of Navigation -->
-
-    <!-- Home -->
-    <main>
-     <div class="Home">
-    <img src="Media/Image/pp.jpg" alt="pp.jpg">
-    <h3>Hallo... Saya JbotMD...</h3>
-    <p>
-    <h4>
-    i'm Jbot Assistant Tuan Sajisan
-    </h4>
-    <br>
-    <h5>
-    Buat Kamu Yang Mau Join Comunity Chat Mabar
-    Silahkan Click diBawah Ini...
-    </h5>
-    </p>
-  </div>
-  
-    <hr>
-   
-    <div id="isC" class="But">
-    <button onclick="location.href='https://chat.whatsapp.com/GJOignNEEWoCOgeGwJcqnh'"><h3>GROUP CHATZS</h3></button>
-    <br>
-    <button onclick="location.href='https://chat.whatsapp.com/LMlzg2z0rZn437SrvXPhIg'"><h3>GROUP BOTZS</h3></button>
-    <br>
-    <button onclick="location.href='https://whatsapp.com/channel/0029Vac3FIeBlHpcZ26MM52E'"><h3>CHANNEL 12DES</h3></button>
+    
+    <h2 class="name">JbotMD</h2>
+    <div class="about"><h4>Assistant Owners Jsn</h4></div>
+    
+<!-- Email -->
+<div class="tiles">
+  <a href="jbot44a@gmail.com" class="link">
+    <div class="icon">
+      <i class="fa-regular fa-envelope"></i>
     </div>
-    <!-- /Home -->
-    
-    
-    <!-- Comunity -->
-    <!-- /Comunity -->
-    
-    
-    <!-- Project -->
-   <div id="isP" class="Project">
-    <br>
-   <a href="https://chat.whatsapp.com/LMlzg2z0rZn437SrvXPhIg"><img class="pr" src="Media/Image/d1.png" alt="c2"></img></a>
-    <br>
-    <br>
-   <a href="">
-      <img class="pro" src="Media/Image/pro.jpg" alt="imgpro"></img></a>
+    <p class="social"> Email </p>
+    <div class="copy" link="malto:slowers4a@gmail.com">
+      <i class="fa-brands fa-creative-commons-share"></i>
+    </div>
+  </a>
+</div>
+
+<!-- GitHub -->
+<div class="tiles">
+  <a href="https://github.com/SlowersMD" class="link">
+    <div class="icon">
+      <i class="fa-brands fa-github"></i>
+    </div>
+    <p class="social"> GitHub </p>
+    <div class="copy" link="https://github.com/jbotMD">
+      <i class="fa-brands fa-creative-commons-share"></i>
+    </div>
+  </a>
+</div>
+
+<!-- gcwhatsapp -->
+<div class="tiles">
+  <a href="https://chat.whatsapp.com/LMlzg2z0rZn437SrvXPhIg" class="link">
+    <div class="icon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <p class="social"> Group Chat Area </p>
+    <div class="copy" link="https://chat.whatsapp.com/LMlzg2z0rZn437SrvXPhIg">
+      <i class="fa-brands fa-creative-commons-share"></i>
+    </div>
+  </a>
+</div>
+
+<!-- gcwhatsapp2 -->
+<div class="tiles">
+  <a href="https://chat.whatsapp.com/EKJ4k2m4hJJ7TiAKJGGcxn" class="link">
+    <div class="icon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <p class="social"> Group Mabar Area </p>
+    <div class="copy" link="https://chat.whatsapp.com/HgE3ftvlTU7L5IOHefhZcn">
+      <i class="fa-brands fa-creative-commons-share"></i>
+    </div>
+  </a>
+</div>
+
+<!-- About -->
+<div class="tiles">
+  <a href="#content" class="link" onclick="toggleContent()">
+    <div class="icon">
+      <i class="fa-brands fa-adn"></i>
+    </div>
+    <p class="social"> AboutMe </p>
+    <div class="copy">
+      <i class="fa-brands fa-adn"></i>
+    </div>
+  </a>
+</div>
+
+<!-- tampilan about -->
+  <div id="content" class="content">
+    <p>Saya Adalah JbotMD</p>
+    <p>Assistant Botzs Tuan Jsn</p>
   </div>
-    <!-- /Project -->
-    
-  <hr>
+
+  </main>
   
-  <p>
-    @JbotMD
-    ©JbotMD2021
-  </p>
+  <footer>
+    <div align="center"><h3 id="copyright">JbotMD Support Comunity</h3></div>
+  </footer>
   
-    </main>
-  </body>
+  <script src="script.js"></script>
+  <script src="main.js"></script>
+</body>
 </html>
